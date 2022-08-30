@@ -1,0 +1,46 @@
+.founders {
+    background: url('../images/blackBg.jpg') center center/cover no-repeat;
+    height: 580px;
+    padding: 108px 167px 0;
+    &__wrapper{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &_items {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &_sponsors {
+            opacity: .6;
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 80px;
+        }
+    }
+
+    &__item {
+        text-align: center;
+        width: 334px;
+
+        &_img {
+            height: 80px;
+            width: 80px;
+            margin-bottom: 10px;
+        }
+
+        &_name {
+            font-size: 22px;
+            line-height: 31px;
+            font-weight: 500;
+            letter-spacing: 0.04em;
+            color: #ffffff;
+        }
+
+        &_position {
+            margin-bottom: 30px;
+        }
+    }
+}
