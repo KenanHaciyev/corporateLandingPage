@@ -8,7 +8,32 @@
 		<title>Corporate landing</title>
 	</head>
 	<body>
-		<section class="intro">
+		<section class="menu"> 
+			<nav>
+				<ul class="menu__items">
+					<a class="menu__items_link" href="#test">
+						<li class="menu__items_item active">Попробуйте сейчас</li><span>&#9898</span> <span class="none">&#9899</span>
+					</a> <br> <br>
+					<a class="menu__items_link" href="#creative">
+						<li class="menu__items_item active">Креативность</li><span>&#9898</span> <span class="none">&#9899</span>
+					</a> <br> <br>
+					<a class="menu__items_link" href="#services">
+						<li class="menu__items_item active">Наши услуги</li><span>&#9898</span> <span class="none">&#9899</span>
+					</a> <br> <br>
+					<a class="menu__items_link" href="#sponsors">
+						<li class= "menu__items_item active">Наши партнёры</li><span>&#9898</span> <span class="none">&#9899</span>
+					</a> <br> <br>
+					<a class="menu__items_link" href="#order">
+						<li class="menu__items_item active">Заказать</li><span>&#9898</span> <span class="none">&#9899</span>
+					</a> <br> <br>
+					<a class="menu__items_link" href="#we">
+						<li class="menu__items_item active">О нас</li><span>&#9898</span> <span class="none">&#9899</span>
+					</a> <br>
+				</ul>
+			</nav>
+		</section>
+
+		<section id="test" class="intro">
 			<div class="intro__media">
 				<video
 					class="intro__media_video"
@@ -27,7 +52,7 @@
 			</div>
 		</section>
 
-		<section class="platforms">
+		<section id="creative" class="platforms">
 			<div class="platforms__wrapper">
 				<div class="platforms__wrapper_content">
 					<div class="platforms__subtitle design">NEW DESIGN</div>
@@ -53,7 +78,7 @@
 			</div>
 		</section>
 
-		<section class="features">
+		<section id="services" class="features">
 			<div class="features__subtitle design design__center">NEW FEATURES</div>
 			<h2 class="features__title title title__center">Some awesone features</h2>
 			<div class="features__items">
@@ -119,7 +144,7 @@
 			</div>
 		</section>
 
-		<section class="founders">
+		<section id="sponsors" class="founders">
 			<div class="founders__wrapper">
 				<div class="founders__wrapper_items">
 					<div class="founders__item">
@@ -205,7 +230,7 @@
 			</div>
 		</section>
 
-		<section class="form">
+		<section id="order" class="form">
 			<div class="form__subtitle design design__center">NEW FEATURES</div>
 			<h2 class="form__title title title__center title__white">
 				Over 1000 designers are using ...
@@ -227,5 +252,60 @@
 				By Signing up you agree to our <a href="#">terms & Services.</a>
 			</div>
 		</section>
+
+		<footer>
+			<div id="we" class="footer">
+				<div class="footer__items">
+					<div class="footer__item">
+						<div class="footer__item_title title title__footer">Start Ex</div>
+						<img class="footer__item_logo" src="icons/logo.png" alt="logo" />
+						<div class="footer__item_address text text__footer">
+							Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam.
+							USA & CAN: 1-888-123-4567 Address: 34 Brokel Rd. NY
+						</div>
+					</div>
+					<div class="footer__item">
+						<div class="footer__item_title title title__footer">Support</div>
+						<div class="footer__item_contacts">
+							<a href="#">Help Center</a> <br />
+							<a href="#">Get Started</a> <br />
+							<a href="#">Contact US</a>
+						</div>
+					</div>
+					<div class="footer__item">
+						<div class="footer__item_title title title__footer">About US</div>
+						<div class="footer__item_privacy">
+							<a href="#">About Us</a> <br />
+							<a href="#">Terms of Use</a> <br />
+							<a href="#">Privacy Policy</a>
+						</div>
+					</div>
+					<div class="footer__item">
+						<div class="footer__item_title title title__footer">
+							Get Newsletter
+						</div>
+						<form class="footer__item_form" action="#">
+							<input required placeholder="EMAIL" type="email" />
+							<button class="footer__item_btn btn btn__square">
+								<img src="icons/telegramm.png" alt="telegramm" />
+							</button>
+						</form>
+						<div class="footer__item_socials">
+							<div class="wrapper">
+								<a href="#"><img src="icons/ball.png" alt="dribble" /></a>
+								<a href="#"><img src="icons/fb.png" alt="facebook" /></a>
+								<a href="#"><img src="icons/google.png" alt="google" /></a>
+								<a href="#"
+									><img src="icons/twitter_s_17579.png" alt="twitter"
+								/></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__img">
+					<img src="images/rectangleRight.png" alt="rectangle" />
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>

@@ -29,12 +29,16 @@
 			padding-left: 4px;
 			width: 263px;
 			height: 49px;
-			background-color: transparent;
 			opacity: 0.6;
 			border: 1px solid #fff;
 			border-radius: 3px;
 			color: #fff;
 			font-size: 20px;
+			background-color:#222b60;
+		}
+
+		input:focus {
+			scale: (1.05);
 		}
 
 		input::placeholder {

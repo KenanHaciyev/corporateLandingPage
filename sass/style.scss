@@ -10,6 +10,7 @@
     width: 1140px;
     margin: 0 auto;
 }
+@import 'blocks/menu.scss';
 @import 'blocks/intro.scss';
 @import 'blocks/button.scss';
 @import 'blocks/design.scss';
@@ -21,4 +22,5 @@
 @import 'blocks/founders.scss';
 @import 'blocks/browser.scss';
 @import 'blocks/form.scss';
+@import 'blocks/footer.scss';
 

@@ -1,0 +1,49 @@
+.menu{
+    nav {
+        position: relative;
+        padding: 0 30px;
+    }
+    
+    &__items{
+        margin-top: 230px;
+        position: fixed;
+        z-index: 10;
+        right: 100px;
+
+        &_item {
+            display: none;
+            list-style-type: none;
+        }
+
+        &_link {
+            text-decoration: none;
+            color:aqua;
+            position: relative;
+
+            span.none {
+                display: none;
+            }
+        }
+
+        &_link:hover {
+            .active {
+                text-align: right;
+                width: 150px;
+                display:inline;
+                padding-right: 20px;
+                display: block;
+                position: absolute;
+                right: 10px;
+                top: 0px;
+            }
+
+            span {
+                display: none;
+            }
+
+            span.none{
+                display: inline;
+            }
+        }
+    }
+}
