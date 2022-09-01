@@ -6,6 +6,7 @@
 		justify-content: space-around;
 		&_img {
 			position: relative;
+			z-index: -5;
 		}
 
 		&_rectangle {

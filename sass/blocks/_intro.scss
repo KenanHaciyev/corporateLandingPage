@@ -46,6 +46,9 @@
             letter-spacing: 0.04em;
             color: #282828;
             margin-bottom: 110px;
+            animation-name: colorChange;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
         }
 
         &_notice {
@@ -54,6 +57,17 @@
             line-height: 45px;
             font-weight: 400;
             letter-spacing: 0.04em;
+            color: #282828;
+        }
+    }
+    @keyframes colorChange {
+        from {
+            color: #282828;
+        }
+        50% {
+            color: #fff;
+        }
+        to {
             color: #282828;
         }
     }
