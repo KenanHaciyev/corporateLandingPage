@@ -12,11 +12,11 @@
     cursor: pointer;
     z-index: 6;
 
-    &__transparent {
+    &_transparent {
         background-color:rgba($color: #ff6d6d, $alpha: .6);
     }
     
-    &__square {
+    &_square {
         width: 52px;
         height: 50px;
         border: 1px solid #ff6d6d;
@@ -27,7 +27,7 @@
 .btn:hover {
     filter: drop-shadow(0px 0px 8px #ff6d6d);
 }
-.btn__transparent:hover{
+.btn_transparent:hover{
     transition: all 1s;
     background-color:rgba($color: #ff6d6d, $alpha: 1);
     filter: drop-shadow(0px 0px 8px #ff6d6d);
