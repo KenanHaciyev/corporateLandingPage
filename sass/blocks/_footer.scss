@@ -25,7 +25,7 @@
             right: 140px;
         }
 
-        a {
+        &_link {
             text-decoration: none;
             opacity: 0.56;
             font-size: 14px;
@@ -35,36 +35,36 @@
             color: #282828;
         }
 
-        a:hover {
+        &_link:hover {
             transition: all 1s;
             text-decoration: underline;
             color: #ff6d6d;
         }
 
         &_form {
-            position: relative;
+            position: relative;            
+        }
 
-            input {
-                font-size: 19px;
-                padding-left: 10px;
-                max-width: 263px;
-                height: 49px;
-                opacity: 0.8;
-                border: 1px solid #4e4e5e;
-                border-radius: 3px;
-                margin-top: 10px;
-                background-color: #e9e9ea;
-            }
+        &_input {
+            font-size: 19px;
+            padding-left: 10px;
+            max-width: 263px;
+            height: 49px;
+            opacity: 0.8;
+            border: 1px solid #4e4e5e;
+            border-radius: 3px;
+            margin-top: 10px;
+            background-color: #e9e9ea;
+        }
 
-            input::placeholder {
-                opacity: 0.4;
-                font-size: 16px;
-                line-height: 75px;
-                font-weight: 400;
-                letter-spacing: 0.04em;
-                color: #000000;
-                padding-left: 10px;
-            }
+        &_input::placeholder {
+            opacity: 0.4;
+            font-size: 16px;
+            line-height: 75px;
+            font-weight: 400;
+            letter-spacing: 0.04em;
+            color: #000000;
+            padding-left: 10px;
         }
 
         &_btn {
@@ -83,12 +83,16 @@
                 justify-content: space-between;
             }
         }
+
+        &_privacy, &_contacts {
+            display: flex;
+            flex-direction: column;
+        }
     }
 
     &__img {
         position: relative;
-
-        img {
+        &_image {
             position: absolute;
             height: 670px;
             top: -574px;

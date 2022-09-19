@@ -4,7 +4,7 @@
         justify-content: space-between;
         &_img{
             position: relative;
-            img {
+            &-image {
                 position: absolute;
                 top: 0;
                 right: 0;
@@ -29,7 +29,7 @@
     &__title {
         position: relative;
         width: 545px;
-        span {
+        &_points {
             color: #ff6d6d;
         }
     }

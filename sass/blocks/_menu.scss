@@ -1,5 +1,5 @@
 .menu{
-    nav {
+    &__navigation {
         position: relative;
         padding: 0 30px;
     }
@@ -20,7 +20,7 @@
             color:aqua;
             position: relative;
 
-            span.none {
+            .none {
                 display: none;
             }
         }
@@ -37,11 +37,11 @@
                 top: 0px;
             }
 
-            span {
+            .block {
                 display: none;
             }
 
-            span.none{
+            .none{
                 display: inline;
             }
         }

@@ -9,25 +9,25 @@
 	</head>
 	<body>
 		<section class="menu"> 
-			<nav>
+			<nav class="menu__navigation">
 				<ul class="menu__items">
 					<a class="menu__items_link" href="#test">
-						<li class="menu__items_item active">Попробуйте сейчас</li><span>&#9898</span> <span class="none">&#9899</span>
+						<li class="menu__items_item active">Попробуйте сейчас</li><span class="menu__items_symbol block">&#9898</span> <span class="menu__items_symbol none">&#9899</span>
 					</a> <br> <br>
 					<a class="menu__items_link" href="#creative">
-						<li class="menu__items_item active">Креативность</li><span>&#9898</span> <span class="none">&#9899</span>
+						<li class="menu__items_item active">Креативность</li><span class="menu__items_symbol block">&#9898</span> <span class="menu__items_symbol none">&#9899</span>
 					</a> <br> <br>
 					<a class="menu__items_link" href="#services">
-						<li class="menu__items_item active">Наши услуги</li><span>&#9898</span> <span class="none">&#9899</span>
+						<li class="menu__items_item active">Наши услуги</li><span class="menu__items_symbol block">&#9898</span> <span class="menu__items_symbol none">&#9899</span>
 					</a> <br> <br>
 					<a class="menu__items_link" href="#sponsors">
-						<li class= "menu__items_item active">Наши партнёры</li><span>&#9898</span> <span class="none">&#9899</span>
+						<li class= "menu__items_item active">Наши партнёры</li><span class="menu__items_symbol block">&#9898</span> <span class="menu__items_symbol none">&#9899</span>
 					</a> <br> <br>
 					<a class="menu__items_link" href="#order">
-						<li class="menu__items_item active">Заказать</li><span>&#9898</span> <span class="none">&#9899</span>
+						<li class="menu__items_item active">Заказать</li><span class="menu__items_symbol block">&#9898</span> <span class="menu__items_symbol none">&#9899</span>
 					</a> <br> <br>
 					<a class="menu__items_link" href="#we">
-						<li class="menu__items_item active">О нас</li><span>&#9898</span> <span class="none">&#9899</span>
+						<li class="menu__items_item active">О нас</li><span class="menu__items_symbol block">&#9898</span> <span class="menu__items_symbol none">&#9899</span>
 					</a> <br>
 				</ul>
 			</nav>
@@ -47,7 +47,7 @@
 				<h1 class="intro__content_title">
 					There is no other platforms for you as like
 				</h1>
-				<button class="btn btn_transparent">Try now</button>
+				<button class="intro__content_btn btn btn_transparent">Try now</button>
 				<div class="intro__content_notice">* No need to add cards details</div>
 			</div>
 		</section>
@@ -57,7 +57,7 @@
 				<div class="platforms__wrapper_content">
 					<div class="platforms__subtitle design">NEW DESIGN</div>
 					<h2 class="platforms__title title">
-						There is no other platforms for you as like <span>....</span>
+						There is no other platforms for you as like <span class="platforms__title_points">....</span>
 					</h2>
 					<div class="platforms__description text">
 						Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
@@ -73,7 +73,7 @@
 					</div>
 				</div>
 				<div class="platforms__wrapper_img">
-					<img src="images/rectangle.jpg" alt="rectangle" />
+					<img class="platforms__wrapper_img-image" src="images/rectangle.jpg" alt="rectangle" />
 				</div>
 			</div>
 		</section>
@@ -132,7 +132,7 @@
 				<div class="responsive__wrapper_content">
 					<div class="responsive__wrapper_subtitle design">NEW DESIGN</div>
 					<h2 class="responsive__wrapper_title title">
-						Resposive design, just need your tap <span>....</span>
+						Resposive design, just need your tap <span class="responsive__wrapper_points">....</span>
 					</h2>
 					<div class="responsive__wrapper_description text">
 						Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
@@ -226,7 +226,7 @@
 				euismod semper.
 			</div>
 			<div class="browser__img">
-				<img src="images/browser.png" alt="browser" />
+				<img class="browser__img_image" src="images/browser.png" alt="browser" />
 			</div>
 		</section>
 
@@ -237,19 +237,19 @@
 			</h2>
 			<div class="form__test text">30 days free trial for all.</div>
 			<img class="form__img" src="icons/arrow_17274.png" alt="arrow" />
-			<form action="#">
-				<input required placeholder="FULL NAME" name="name" type="text" />
-				<input placeholder="YOUR EMAIL" name="email" type="email" />
-				<input
+			<form class="form__wrapper" action="#">
+				<input class="form__wrapper_input" required placeholder="FULL NAME" name="name" type="text" />
+				<input class="form__wrapper_input" placeholder="YOUR EMAIL" name="email" type="email" />
+				<input class="form__wrapper_input"
 					required
-					placeholder="PASSWORD"
+					placeholder="PASSWORD" 
 					name="password"
 					type="password"
 				/>
-				<button class="form__btn btn">TRY NOW</button>
+				<button class="form__wrapper_btn btn">TRY NOW</button>
 			</form>
 			<div class="form__policy text">
-				By Signing up you agree to our <a href="#">terms & Services.</a>
+				By Signing up you agree to our <a class="form__policy_link" href="#">terms & Services.</a>
 			</div>
 		</section>
 
@@ -263,21 +263,21 @@
 							Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam.
 							USA & CAN: 1-888-123-4567 Address: 34 Brokel Rd. NY
 						</div>
-					</div>
+					</div> 
 					<div class="footer__item">
 						<div class="footer__item_title title title_footer">Support</div>
 						<div class="footer__item_contacts">
-							<a href="#">Help Center</a> <br />
-							<a href="#">Get Started</a> <br />
-							<a href="#">Contact US</a>
+							<a class="footer__item_link" href="#">Help Center</a> <!-- <br /> -->
+							<a class="footer__item_link" href="#">Get Started</a> <!-- <br /> -->
+							<a class="footer__item_link" href="#">Contact US</a>
 						</div>
 					</div>
 					<div class="footer__item">
 						<div class="footer__item_title title title_footer">About US</div>
 						<div class="footer__item_privacy">
-							<a target="_blank" href="https://instagram.com/malish_ken?igshid=YmMyMTA2M2Y=">About Us</a> <br />
-							<a href="#">Terms of Use</a> <br />
-							<a href="#">Privacy Policy</a>
+							<a class="footer__item_link" target="_blank" href="https://instagram.com/malish_ken?igshid=YmMyMTA2M2Y=">About Us</a> <!-- <br /> -->
+							<a class="footer__item_link" href="#">Terms of Use</a> <!-- <br /> -->
+							<a class="footer__item_link" href="#">Privacy Policy</a>
 						</div>
 					</div>
 					<div class="footer__item">
@@ -285,7 +285,7 @@
 							Get Newsletter
 						</div>
 						<form class="footer__item_form" action="#">
-							<input required placeholder="EMAIL" type="email" />
+							<input class="footer__item_input" required placeholder="EMAIL" type="email" />
 							<button class="footer__item_btn btn btn_square">
 								<img src="icons/telegramm.png" alt="telegramm" />
 							</button>
@@ -303,7 +303,7 @@
 					</div>
 				</div>
 				<div class="footer__img">
-					<img src="images/rectangleRight.png" alt="rectangle" />
+					<img class="footer__img_image" src="images/rectangleRight.png" alt="rectangle" />
 				</div>
 			</div>
 		</footer>
