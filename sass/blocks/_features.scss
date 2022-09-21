@@ -1,0 +1,45 @@
+.features {
+    background: url('../images/bgHeadphones.jpg') center center/cover no-repeat;
+    max-height: 675px;
+    padding: 104px 160px 184px;
+
+    &__title {
+        padding-bottom: 90px;
+    }
+
+    &__items{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    &__item {
+        width: 355px;
+        &_img {
+            margin-bottom: 29px;
+            animation-name: beating;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+
+        &_smallTitle {
+            font-size: 22px;
+            font-weight: 500;
+            letter-spacing: 0.04em;
+            color: #282828;
+            margin-bottom: 9px;
+        }
+    }
+
+    @keyframes beating {
+        from {
+            scale: 1;
+        }
+        50% {
+            scale: 1.2;
+        }
+        to {
+            scale: 1;
+        }
+    }
+}

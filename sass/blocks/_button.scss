@@ -1,0 +1,34 @@
+.btn {
+    width: 190px;
+    height: 50px;
+    background-color:rgba($color: #ff6d6d, $alpha: 1);
+    border-radius: 3px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    cursor: pointer;
+    z-index: 6;
+
+    &_transparent {
+        background-color:rgba($color: #ff6d6d, $alpha: .6);
+    }
+    
+    &_square {
+        width: 52px;
+        height: 50px;
+        border: 1px solid #ff6d6d;
+        box-shadow: 0px 3px 3px 0px rgba(14,15,15,0.25);
+    }
+}
+
+.btn:hover {
+    filter: drop-shadow(0px 0px 8px #ff6d6d);
+}
+.btn_transparent:hover{
+    transition: all 1s;
+    background-color:rgba($color: #ff6d6d, $alpha: 1);
+    filter: drop-shadow(0px 0px 8px #ff6d6d);
+}

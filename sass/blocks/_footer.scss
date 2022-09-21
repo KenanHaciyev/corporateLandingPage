@@ -1,0 +1,103 @@
+.footer {
+    height: 335px;
+
+    &__items {
+        padding:94px 338px 0 149px;
+        display:flex ;
+        margin: auto;
+        justify-content: space-around;
+    }
+
+    &__item {
+        position: relative;
+
+        &_title {
+            margin-bottom: 10px;
+        }
+
+        &_address {
+            width: 240px;
+        }
+
+        &_logo {
+            position: absolute;
+            top: 3px;
+            right: 140px;
+        }
+
+        &_link {
+            text-decoration: none;
+            opacity: 0.56;
+            font-size: 14px;
+            line-height: 26px;
+            font-weight: 500;
+            letter-spacing: 0.04em;
+            color: #282828;
+        }
+
+        &_link:hover {
+            transition: all 1s;
+            text-decoration: underline;
+            color: #ff6d6d;
+        }
+
+        &_form {
+            position: relative;            
+        }
+
+        &_input {
+            font-size: 19px;
+            padding-left: 10px;
+            max-width: 263px;
+            height: 49px;
+            opacity: 0.8;
+            border: 1px solid #4e4e5e;
+            border-radius: 3px;
+            margin-top: 10px;
+            background-color: #e9e9ea;
+        }
+
+        &_input::placeholder {
+            opacity: 0.4;
+            font-size: 16px;
+            line-height: 75px;
+            font-weight: 400;
+            letter-spacing: 0.04em;
+            color: #000000;
+            padding-left: 10px;
+        }
+
+        &_btn {
+            position: absolute;
+            right: 0;
+            bottom: 1px;
+        }
+
+        &_socials {
+            margin-top: 19px;
+            display: flex;
+            justify-content: center;
+            .wrapper {
+                width: 155px;
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+
+        &_privacy, &_contacts {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    &__img {
+        position: relative;
+        &_image {
+            position: absolute;
+            height: 670px;
+            top: -574px;
+            right: 0px;
+            z-index: -1;
+        }
+    }
+}

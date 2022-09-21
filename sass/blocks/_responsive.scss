@@ -1,0 +1,44 @@
+.responsive {
+	min-height: 550px;
+	overflow: hidden;
+	&__wrapper {
+		display: flex;
+		justify-content: space-around;
+		&_img {
+			position: relative;
+			z-index: -5;
+		}
+
+		&_rectangle {
+			position: absolute;
+			top: -97px;
+			left: -260px;
+			z-index: -5;
+		}
+
+		&_macbook {
+			position: absolute;
+			left: -195px;
+			padding: 93px 0;
+			justify-self: left;
+		}
+
+		&_content {
+			padding: 135px 0;
+			text-align: left;
+			width: 505px;
+		}
+
+		&_subtitle {
+			margin-bottom: 10px;
+		}
+
+		&_title {
+			margin-bottom: 30px;
+		}
+
+		&_points {
+			color: #ff6d6d;
+		}
+	}
+}

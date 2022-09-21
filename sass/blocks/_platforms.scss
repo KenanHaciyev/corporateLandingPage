@@ -1,0 +1,36 @@
+.platforms{
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        &_img{
+            position: relative;
+            &-image {
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 568px;
+                height: 729px;
+                background-color: #ededed;
+                z-index: -5;
+            }
+        }
+
+        &_content{
+            margin: 191px 0 166px 150px;
+            justify-self: left;
+        }
+    }
+
+    &__description {
+        width: 587px;
+        margin-top: 45px;
+    }
+
+    &__title {
+        position: relative;
+        width: 545px;
+        &_points {
+            color: #ff6d6d;
+        }
+    }
+}
